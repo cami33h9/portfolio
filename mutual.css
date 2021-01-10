@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 5vw;
+    background-image: url(baggrund3.jpg);
+}
+
+
+
+section {
+    margin: 0 7vw;
+    padding-top: 15vw;
+    max-width: 1400px;
+}
+
+img {
+    width: 100%;
+}
+
+#eksempler {
+    background: #E8BF97;
+    font-family: 'Baskervville', serif;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    text-decoration: none;
+    display: inline-grid;
+}
+
+#eksempler:hover {
+    background: orange;
+    color: white;
+}
+
+
+/*--------------fonts----------------*/
+h1 {
+    font-family: 'Baskervville', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Baskervville', serif;
+    font-size: 1.0rem;
+    margin: 0;
+}
+
+
+p {
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+}
+
+
+
+/*--------------header---------------*/
+#header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+header a {
+    font-family: 'Baskervville', serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2.1rem;
+    display: inline-block;
+    margin: 0;
+}
+
+#header_bottom a {
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+    margin: 1rem 1rem;
+}
+
+#header_bottom a:hover {
+    color: orange;
+}
+
+@media (max-width:900px) {
+    #header_bottom {
+        display: none;
+    }
+}
+
+/*--------------Mobil-Header----------------*/
+
+
+#burgerfane {
+    background-color: black;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+    border: 2px solid orange;
+
+}
+
+#burgerfane a {
+    font-size: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#burgerknap {
+    display: inline-block;
+    font-size: 2rem;
+    position: absolute;
+
+}
+
+pointer {
+    cursor: pointer;
+}
+
+@media (min-width:900px) {
+
+    .headerlistemobil {
+        display: none;
+
+    }
+}
+
+
+/*------------drop down menu------------*/
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Baskervville', serif;
+    font-weight: 600;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1vw;
+    text-decoration: none;
+    display: block;
+    font-family: 'Baskervville', serif;
+    font-size: 1rem;
+
+}
+
+.dropdown-content a:hover {
+    background-color: black;
+    color: black;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: orange;
+    border-bottom: solid orange 3px;
+}
+
+/*--------------footer---------------*/
+
+
+/*---------------utility----------------*/
+
+.hide {
+    display: none;
+}
+
+.invis {
+    opacity: 0;
+}
+
+.pointer {
+    cursor: pointer;
+}

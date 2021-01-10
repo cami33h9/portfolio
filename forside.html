@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="forside.css">
+    <link rel="stylesheet" href="mutual.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+        <nav>
+            <div id="header_top">
+                <a id="title" href="forside.html">CAMILLA BARGMANN</a>
+            </div>
+
+            <div id="header_bottom">
+                <b>
+                    <a href="forside.html">Forside</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Projekter</button>
+                        <div class="dropdown-content">
+                            <a href="web.html" target="blank">Web</a>
+                            <a href="ux.html" target="blank">UX-Design</a>
+                            <a href="animation.html" target="blank">Animation</a>
+                            <a href="indhold.html" target="blank">Indhold</a>
+                        </div>
+                    </div>
+                    <a href="about.html">Om mig</a>
+                </b>
+            </div>
+
+
+
+            <div class="headerlistemobil">
+                <div>
+                    <div class="pointer" id="burgerknap">☰</div>
+                </div>
+                <ul class="hidden" id="burgerfane">
+                    <li class="underline"><a href="forside.html">FORSIDE</a></li>
+                    <li><a href="web.html">WEB</a></li>
+                    <li><a href="ux.html">UX-DESIGN</a></li>
+                    <li><a href="animation.html">ANIMATION</a></li>
+                    <li><a href="indhold.html">INDHOLD</a></li>
+                    <li><a href="about.html">OM MIG</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="video_landing">
+            <video id="video_background" autoplay loop muted>
+                <source src="baggrundsvideo/forside_v2.mp4">
+            </video>
+            <div id="video_text">
+                <a href="#section_categories">SE PORTFOLIO</a><br>
+
+            </div>
+            <a href="#section_categories">
+                <div id="arrow"></div>
+            </a>
+
+        </div>
+
+
+        <section id="section_categories">
+            <div class="l1"></div>
+            <div class="section_wrapper">
+                <div class="cols">
+                    <div class="col">
+                        <a id="button_web" href="tema1.html">UDFORSK WEB</a>
+                        <img src="fallp1.png" alt="img_col1">
+                    </div>
+                    <div class="col">
+                        <a id="button_UX" href="tema1.html">UDFORSK UX-DESIGN</a>
+                        <img src="fallp2.png" alt="img_col2">
+                    </div>
+                    <div class="col">
+                        <a id="button_animation" href="tema1.html">UDFORSK ANIMATION</a>
+                        <img src="fallp3.png" alt="img_col3">
+                    </div>
+                    <div class="col">
+                        <a id="button_indhold" href="tema1.html">UDFORSK INDHOLD</a>
+                        <img src="fallp4.png" alt="img_col4">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="header.js"></script>
+    <script src="arrow.js"></script>
+
+
+</body>
+
+</html>

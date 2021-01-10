@@ -1,0 +1,179 @@
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Baskervville', serif;
+    color: white;
+}
+
+
+.headerlistemobil {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+
+}
+
+
+/*------------landing------------*/
+
+#video_landing {
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video_background {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    #video_background {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    #video_background {
+        width: auto;
+        height: 100%;
+    }
+}
+
+#video_text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 15%;
+}
+
+#video_text a {
+    background: orange;
+    font-family: 'Baskervville', serif;
+    color: white;
+    padding: 10px;
+    border: 2px solid #E9EFEC;
+    text-decoration: none;
+
+}
+
+#video_text a:hover {
+    background: black;
+    color: orange;
+}
+
+
+#arrow {
+    background-image: url(svg/arrow_down.svg);
+    background-size: cover;
+    width: 5vw;
+    height: 3vw;
+    margin-left: 47.5vw;
+
+}
+
+.bouncing {
+    animation-name: bouncing_kf;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bouncing_kf {
+    from {
+        transform: translateY(-8vw);
+    }
+
+    to {
+        transform: translateY(-4vw);
+    }
+}
+
+
+.l1 {
+    content: '';
+    width: 25%;
+    height: 4px;
+    display: block;
+    background-color: black;
+    margin-top: -6%;
+    margin-bottom: 3%;
+    margin-left: 37.5%;
+
+
+
+
+}
+
+
+/*------------categories------------*/
+
+#section_categories {
+    margin: 0;
+}
+
+#section_categories .col,
+#section_categories .row {
+    position: relative;
+    text-align: center;
+    padding: 0.5rem 0;
+    display: inline-block;
+}
+
+
+#section_categories a {
+    background: orange;
+    font-family: 'Baskervville', serif;
+    color: white;
+    padding: 10px;
+    border: 2px solid #E9EFEC;
+    text-decoration: none;
+    display: inline-grid;
+}
+
+#section_categories a:hover {
+    background: black;
+    color: orange;
+}
+
+#button_web,
+#button_animation,
+#button_indhold,
+#button_UX {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cols {
+    height: 5vw;
+    width: 5wv;
+}
+
+/*------------mediaQ------------*/
+
+@media (min-width:769px) {
+
+    #section_categories {
+        margin: 0 auto;
+        padding-top: 10vw;
+    }
+
+    #section_categories .cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #section_categories .col,
+    #section_categories .row {
+        padding: 0.5rem;
+    }
+
+}

@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#title {
+    color: black;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Baskervville', serif;
+    color: black;
+}
+
+
+.headerlistemobil {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: black;
+
+}
+
+#header_bottom a {
+    color: black;
+}
+
+
+/*--------------first_section--------------*/
+
+#title {
+    color: black;
+}
+
+
+
+h2 {
+    color: black;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-size: 50px;
+
+
+}
+
+h3 {
+    color: black;
+    font-family: 'Baskervville', serif;
+    font-weight: 400;
+    font-size: 13px;
+
+
+}
+
+p {
+    color: black;
+    font-family: 'Baskervville', serif;
+    text-align: justify;
+}
+
+h1:after {
+    content: '';
+    width: 60px;
+    height: 10px;
+    display: block;
+    background-color: black;
+    margin-top: 25px;
+
+}
+
+h2:after {
+    content: '';
+    width: 60px;
+    height: 5px;
+    display: block;
+    background-color: black;
+    margin-top: 25px;
+
+}
+
+@media (min-width: 900px) {
+
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        align-items: center;
+
+    }
+
+
+}

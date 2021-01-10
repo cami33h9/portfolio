@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+#title {
+    color: black;
+}
+
+.dropbtn {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Baskervville', serif;
+    color: black;
+}
+
+
+.headerlistemobil {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: black;
+
+}
+
+#header_bottom a {
+    color: black;
+}
+
+/*------------------selve "om os" siden------------------------*/
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: #e6e7e9;
+    background-color: #e6e7e9;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 8vw;
+}
+
+h2 {
+    color: black;
+    font-family: 'Baskervville', serif;
+    margin: 0;
+    margin-top: 1vw;
+}
+
+p {
+    color: black;
+    font-family: 'Baskervville', serif;
+    line-height: 1.6;
+}
+
+h2:after {
+    content: '';
+    width: 60px;
+    height: 5px;
+    display: block;
+    background-color: black;
+    margin-top: 25px;
+
+}
+
+/*
+------------------Footer------------------
+
+
+
+/*---------------media-q.---------------------*/
+
+
+@media (min-width: 700px) {
+
+    #p2 {
+        margin: 0;
+    }
+
+    #topbox {
+        margin-top: 4vw;
+    }
+
+
+
+    #topbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5vw;
+        align-items: center;
+    }
+
+
+    #bundbox {
+        margin-top: 4vw;
+    }
+
+    #bundbox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5vw;
+        align-items: center;
+    }
+
+    #bundbox p {
+        text-align: right;
+    }
+
+    #bundbox p {
+        text-align: left;
+        margin-bottom: 8vw;
+        margin-top: 7vw;
+    }
+
+    h2 {
+        margin-top: 2vw;
+    }
+}
