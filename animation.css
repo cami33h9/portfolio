@@ -33,6 +33,24 @@ img {
     color: black;
 }
 
+#header {
+    background-color: white;
+}
+
+.slide {
+    animation-name: slide_kf;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes slide_kf {
+    to {
+        transform: translateX(105vw);
+    }
+}
+
+}
 
 /*--------------first_section--------------*/
 
@@ -84,6 +102,13 @@ h2:after {
     background-color: black;
     margin-top: 25px;
 
+}
+
+footer p {
+    text-align: center;
+    color: darkgray;
+    font-size: 0.8rem;
+    padding-top: 10vw;
 }
 
 @media (min-width: 900px) {

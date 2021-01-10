@@ -4,6 +4,7 @@
 
 img {
     width: 100%;
+
 }
 
 #title {
@@ -33,6 +34,10 @@ img {
     color: black;
 }
 
+
+#header {
+    background-color: white;
+}
 
 /*--------------first_section--------------*/
 
@@ -86,6 +91,15 @@ h2:after {
 
 }
 
+/*------------------Footer------------------*/
+
+footer p {
+    text-align: center;
+    color: darkgray;
+    font-size: 0.8rem;
+    padding-top: 10vw;
+}
+
 @media (min-width: 900px) {
 
     #first_section .section_wrapper {
@@ -96,7 +110,5 @@ h2:after {
 
     }
 
-    #tema {
-        margin-bottom: 5vw;
-    }
+
 }

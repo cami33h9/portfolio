@@ -14,6 +14,15 @@ body {
 }
 
 
+img {
+    border-radius: 10px;
+    border: none;
+    /*    border-radius: 50px;*/
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: opacity(90%)
+}
+
 
 section {
     margin: 0 7vw;
@@ -26,7 +35,7 @@ img {
 }
 
 #eksempler {
-    background: #E8BF97;
+    background: orange;
     font-family: 'Baskervville', serif;
     color: white;
     padding: 10px;
@@ -36,10 +45,17 @@ img {
 }
 
 #eksempler:hover {
-    background: orange;
-    color: white;
+    background: black;
+    color: orange;
 }
 
+#eksempler {
+
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: opacity(90%)
+}
 
 /*--------------fonts----------------*/
 h1 {
@@ -196,7 +212,6 @@ pointer {
     border-bottom: solid orange 3px;
 }
 
-/*--------------footer---------------*/
 
 
 /*---------------utility----------------*/
@@ -211,4 +226,12 @@ pointer {
 
 .pointer {
     cursor: pointer;
+}
+
+
+@media (min-width: 900px) {
+
+    #tema {
+        margin-bottom: 5vw;
+    }
 }

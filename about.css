@@ -33,6 +33,10 @@ img {
     color: black;
 }
 
+#header {
+    background-color: white;
+}
+
 /*------------------selve "om os" siden------------------------*/
 
 html {
@@ -76,10 +80,15 @@ h2:after {
 
 }
 
-/*
-------------------Footer------------------
 
+/*------------------Footer------------------*/
 
+footer p {
+    text-align: center;
+    color: darkgray;
+    font-size: 0.8rem;
+    padding-top: 5vw;
+}
 
 /*---------------media-q.---------------------*/
 

@@ -33,6 +33,9 @@ img {
     color: black;
 }
 
+#header {
+    background-color: white;
+}
 
 /*--------------first_section--------------*/
 
@@ -84,6 +87,13 @@ h2:after {
     background-color: black;
     margin-top: 25px;
 
+}
+
+footer p {
+    text-align: center;
+    color: darkgray;
+    font-size: 0.8rem;
+    padding-top: 10vw;
 }
 
 @media (min-width: 900px) {
