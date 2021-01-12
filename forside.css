@@ -2,6 +2,10 @@
     color: wheat;
 }
 
+.section_wrapper1 img {
+    background-color: wheat;
+}
+
 /*------------landing------------*/
 
 #video_landing {
@@ -34,7 +38,7 @@
     text-align: center;
     width: 100%;
     bottom: 15%;
-    border-radius: 5px;
+
 
 }
 
@@ -44,6 +48,7 @@
     color: wheat;
     padding: 10px;
     text-decoration: none;
+    border-radius: 5px;
 
 }
 
@@ -139,10 +144,6 @@
 }
 
 
-.cols {
-    height: 5vw;
-    width: 5wv;
-}
 
 /*------------------Footer------------------*/
 
@@ -150,7 +151,7 @@ footer p {
     text-align: center;
     color: black;
     font-size: 0.8rem;
-    padding-top: 19vw;
+    padding-top: 10vw;
 }
 
 /*------------mediaQ------------*/
