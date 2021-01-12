@@ -1,28 +1,11 @@
-.dropbtn {
-    background: none;
-    border: none;
-    font-size: 1rem;
-    font-family: 'Baskervville', serif;
-    color: white;
+#header_top a {
+    color: wheat;
 }
-
-
-.headerlistemobil {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-    color: white;
-
-}
-
 
 /*------------landing------------*/
 
 #video_landing {
     height: 100vh;
-    overflow: hidden;
 }
 
 #video_background {
@@ -51,22 +34,22 @@
     text-align: center;
     width: 100%;
     bottom: 15%;
+    border-radius: 5px;
 
 }
 
 #video_text a {
-    background: orange;
-    font-family: 'Baskervville', serif;
-    color: white;
+    background: black;
+    font-family: 'Work Sans', sans-serif;
+    color: wheat;
     padding: 10px;
-    border: 2px solid #E9EFEC;
     text-decoration: none;
 
 }
 
 #video_text a:hover {
-    background: black;
-    color: orange;
+    background: wheat;
+    color: white;
 }
 
 
@@ -102,7 +85,7 @@
     width: 25%;
     height: 4px;
     display: block;
-    background-color: black;
+    background-color: white;
     margin-top: -6%;
     margin-bottom: 3%;
     margin-left: 37.5%;
@@ -115,9 +98,6 @@
 
 /*------------categories------------*/
 
-#section_categories {
-    margin: 0;
-}
 
 #section_categories .col,
 #section_categories .row {
@@ -129,18 +109,17 @@
 
 
 #section_categories a {
-    background: orange;
-    font-family: 'Baskervville', serif;
-    color: white;
+    background: black;
+    font-family: 'Work Sans', sans-serif;
+    color: wheat;
     padding: 10px;
-    border: 2px solid #E9EFEC;
     text-decoration: none;
     display: inline-grid;
 }
 
 #section_categories a:hover {
-    background: black;
-    color: orange;
+    background: wheat;
+    color: white;
 }
 
 #button_web,
@@ -155,7 +134,8 @@
     padding: 5px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    filter: opacity(90%)
+    padding: 19px;
+
 }
 
 
@@ -168,9 +148,9 @@
 
 footer p {
     text-align: center;
-    color: darkgray;
+    color: black;
     font-size: 0.8rem;
-    padding-top: 30vw;
+    padding-top: 19vw;
 }
 
 /*------------mediaQ------------*/
@@ -194,6 +174,11 @@ footer p {
 
     .col #button_web {
         padding: 19px;
+
+    }
+
+    .col #button_indhold {
+        padding: 12px;
 
     }
 }

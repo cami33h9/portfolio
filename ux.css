@@ -1,40 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
-img {
-    width: 100%;
-}
-
-#title {
-    color: black;
-}
-
-.dropbtn {
-    background: none;
-    border: none;
-    font-size: 1rem;
-    font-family: 'Baskervville', serif;
-    color: black;
-}
-
-
-.headerlistemobil {
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-    color: black;
-
-}
-
-#header_bottom a {
-    color: black;
-}
-
 #header {
-    background-color: white;
+    background-color: wheat;
 }
 
 /*--------------first_section--------------*/
@@ -44,37 +9,17 @@ img {
 }
 
 
-
-h2 {
-    color: black;
-    font-family: 'Baskervville', serif;
-    font-weight: 400;
-    font-size: 50px;
-
-
-}
-
-h3 {
-    color: black;
-    font-family: 'Baskervville', serif;
-    font-weight: 400;
-    font-size: 13px;
-
-
-}
-
 p {
-    color: black;
-    font-family: 'Baskervville', serif;
+
     text-align: justify;
 }
 
 h1:after {
     content: '';
     width: 60px;
-    height: 10px;
+    height: 5px;
     display: block;
-    background-color: black;
+    background-color: white;
     margin-top: 25px;
 
 }
@@ -84,14 +29,14 @@ h2:after {
     width: 60px;
     height: 5px;
     display: block;
-    background-color: black;
+    background-color: white;
     margin-top: 25px;
 
 }
 
 footer p {
     text-align: center;
-    color: darkgray;
+    color: black;
     font-size: 0.8rem;
     padding-top: 10vw;
 }
